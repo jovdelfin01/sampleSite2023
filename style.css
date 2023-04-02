@@ -1,0 +1,217 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chicle&family=Libre+Franklin&family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #FDE6B1;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    line-height: 2;
+    color: #F03863;
+}
+
+h5 {
+    font-family: 'Chicle', cursive;
+    font-size: 1.8em;
+    line-height: 2;
+    color: #F03863;
+    text-align: center;
+}
+
+a {
+    font-family: 'Chicle', cursive;
+    margin-inline: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 60px;
+}
+
+nav .flex {
+    align-items: center;
+    
+    padding: 10px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+
+.center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.right img {
+    height: 300px;
+}
+
+.left img {
+    height: 250px;
+}
+
+.left {
+    max-width: 300px;
+}
+.content {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}
+
+nav {
+    background-color: #F03863;
+}
+
+.what-is {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.what-is .flex {
+    justify-content: space-evenly;
+}
+
+button {
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    color: #F03863;
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 1.3px;
+}
+
+.hero {
+    background: url(./images/hero.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.zk-nfts {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.zk-nfts .flex {
+    justify-content: space-evenly;
+}
+
+.right {
+    max-width: 400px;
+}
+
+.panel img {
+    height: 400px;
+}
+
+.about-us .flex {
+    justify-content: center;
+}
+
+.panel {
+    margin-inline: 5px;
+}
+
+.about-us {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-us h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.panel {
+    position: relative;
+}
+
+.text-panel {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+}
+
+.text-panel p {
+    font-size: 0.75em;
+}
+
+.roadmap {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.roadmap img {
+    width: 100vw;
+    
+}
+
+.filler-img {
+    text-align: center;
+    
+}
+.filler-img img {
+    width: 500px;
+}
+
+footer .flex {
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #0F1F2F;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+svg {
+    fill: beige;
+    height: 40px;
+    margin-inline: 5px;
+}
+
+.social .flex {
+    justify-content: center;
+}
